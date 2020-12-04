@@ -45,7 +45,7 @@ function draw() {
   
   monkey.collide(ground);
   
-  if(keyDown("space")&& monkey.y >= 170) {
+  if(keyDown("space")&& monkey.y >= 370) {
    monkey.velocityY = -12;
    }
    
